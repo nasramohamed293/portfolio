@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f8ff;
+    color: #e8dede;
+  }
+  
+  header {
+    background: linear-gradient(90deg, #b788b7, #b1bbbc);
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(132, 126, 126);
+    font-weight: bold;
+    transition: color 0.3s ease;
+    
+  }
+  
+  nav a:hover {
+    color: #ffeb3b;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 4em 2em;
+    background: #fff9f0;
+    animation: fadeIn 2s ease;
+  }
+  
+  .profile-pic {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 1em;
+  }
+  
+  section {
+    padding: 2em;
+  }
+  
+  .project-list {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+  }
+  
+  .project {
+    background: #dfe3e3;
+    padding: 1em;
+    border-radius: 12px;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+  }
+  
+  .roadmap li {
+    margin-bottom: 0.5em;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 400px;
+  }
+  
+  form input, form textarea {
+    padding: 0.8em;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    background: #1a1819;
+    color: white;
+    border: none;
+    padding: 0.8em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  form button:hover {
+    background: #87a2c2;
+  }
+  
+  footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
