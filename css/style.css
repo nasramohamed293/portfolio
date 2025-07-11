@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #f0f8ff;
-    color: #e8dede;
+    color: #131313;
   }
   
   header {
@@ -22,7 +22,7 @@ body {
   
   nav a {
     text-decoration: none;
-    color: rgb(132, 126, 126);
+    color: rgb(20, 12, 12);
     font-weight: bold;
     transition: color 0.3s ease;
     
